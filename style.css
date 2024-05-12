@@ -1,0 +1,125 @@
+h1{
+    text-align: center;
+}
+#container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    background-image: url(circles-background-dark-tones_60389-166.avif.png);
+    position: relative;
+    height: 100%;
+    width: 100%;    
+}
+.cont1{
+    height: 600px;
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 10%;
+    align-items: center;
+    background-color: antiquewhite;
+    border-top: 6px solid #50c878;
+}
+.cont2{
+    height: 600px;
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 10%;
+    align-items: center;
+    background-color: antiquewhite;
+    border-top: 6px solid #98ff98;
+}
+.cont3{
+    height: 600px;
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 10%;
+    align-items: center;
+    background-color: antiquewhite;
+    border-top: 6px solid #62da45;
+}
+.circle1{
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 4px;
+    background-color: black;
+    color: white;
+}
+.circle2{
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 4px;
+    background-color: black;
+    color: white;
+}
+.circle3{
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 4px;
+    background-color: black;
+    color: white;
+}
+.head1 h2{
+    text-align: center;
+    font-size:30px;
+}
+.head2 h2{
+    text-align: center;
+    font-size:30px;
+}
+.head3 h2{
+    text-align: center;
+    font-size:30px;
+}
+#icon{
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    
+}
+li div{
+    display: inline;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+li .fontchange{
+    font-weight: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#purchase {
+    width:150px;
+    height: 40px;
+    margin: auto;
+    font-weight: 300;
+    justify-content: center;
+    text-align: center;
+}
+button{
+    width: 150px;
+    height: 40px;
+    font-weight: 700;
+    background-color: grey;
+    color: white;
+}
+button:hover{
+    background-color: aqua;
+}
+@media(min-width:1024px){
+    .cont1,.cont2,.cont3{
+        width: 33.33%;
+    }
+}
